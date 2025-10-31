@@ -1,10 +1,19 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 @keyframes spin {
     from {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg) scale(1.5);
+        transform: rotate(360deg);
     }
 }
 
@@ -26,7 +35,89 @@
     }
 }
 
-img:hover {
-    animation: move 1s ease-in;
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    33% {
+        transform: translate(0px, 10px);
+    }
+    67% {
+        transform: translate(0px, -100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+    
+}
+
+img {
+    animation: spin 2s;
+}
+
+#elephant:active {
+    animation: disappear 1s ease-out;
+}
+
+@keyframes dance {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+
+    25% {
+        transform: rotate(-10deg) translateY(-10px);
+    }
+
+    50% {
+        transform: rotate(0deg) translateY(10px);
+    }
+    75% {
+        transform: rotate(10deg) translateY(-10px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px);
+    }
+}
+
+#giraffe:active {
+    animation: dance 2s;
     animation-iteration-count: infinite;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+#hippo:active {
+    animation: bounce 2s;
+}
+
+@keyframes lean {
+    from {
+        transform: skew(0);
+    }
+    to {
+        transform: skew(45deg);
+    }
+}
+
+#tiger:active {
+    animation: lean 2s;
 }

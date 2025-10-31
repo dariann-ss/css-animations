@@ -11,7 +11,7 @@
 
 
 
-## Get started
+# Get started
 1. Install Live Server and Go Live to view how the webpage looks with no styling
 2. Follow directions below
 
@@ -88,3 +88,12 @@ selector {
     transform: translate(x, y) | scale(%) | rotate(deg) | skew(deg, deg);
 }
 ```
+
+# Examples
+1. 
+
+# Assignment
+1. Make the elephant "disapper" when clicked (shrink and fade the opacity to 0)
+2. Make the giraffe "dance" when clicked (maybe rotate back and forth while moving up and down a little)
+3. Make the hippo "jump" when clicked (move a little down, then way up and back)
+4. Do something creative with the tiger. See what you can come up with
