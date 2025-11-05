@@ -77,7 +77,7 @@ selector {
 1. Make all the ``img``` elements spin
 2. Make the bear move back and forth
 
-# Practice
+# Practice Assignment
 1. Make the elephant "disapper" when clicked (shrink and fade the opacity to 0)
 2. Make the giraffe "dance" when clicked (maybe rotate back and forth while moving up and down a little)
 3. Make the hippo "jump" when clicked (move a little down, then way up and back)
@@ -85,3 +85,7 @@ selector {
 
 # Example 2
 Follow along with my example to use animations to make a nice hero section and nav
+1. Use position and flex properties to create a layout for headings and nav
+2. Add slide-in animations to headings
+3. Add fade-in animation to nav
+4. Add hover effect and transition
