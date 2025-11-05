@@ -74,7 +74,7 @@ selector {
 ```
 
 # Example 1
-1. Make all the ``img``` elements spin
+1. Make all the ```img``` elements spin
 2. Make the bear move back and forth
 
 # Practice Assignment
